@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 50%;
+  position: absolute;
+  bottom: 25%;
+}
+
+#play {
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: black;
+  color: red;
+  padding: 10px;
+  font-size: 50px;
+  margin: 3%;
+}
+
+#text {
+  font-family: "Protest Riot", serif;
+}
+
+.stickhero {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+}
+
+.debug {
+  width: 80px;
+  margin-left: 90%;
+}
